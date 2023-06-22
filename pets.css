@@ -240,3 +240,35 @@ background-size:cover
     padding: 60px;
 }
 /*fin de seccion*/
+#sec4 {
+    height: 100vh;
+    background-color: #739c9c;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+#reviews {
+    display: grid;
+    grid-template-columns: repeat(3,33.3%);
+   
+    gap: 30px;
+}
+.perfil {
+    height: 90px;
+    width: 90px;
+    border-radius: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.ch1 {
+    margin: 20px 0px;
+}
+.cont {
+    height: 500px;
+    width: 300px;
+    background-color: rgb(224, 224, 224);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px gray;
+    padding: 40px;
+}
